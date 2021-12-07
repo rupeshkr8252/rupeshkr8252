@@ -1,0 +1,11 @@
+body{
+    background-image: url("ordered_bck.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}

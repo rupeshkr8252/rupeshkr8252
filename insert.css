@@ -1,0 +1,16 @@
+body{
+    background-image: url("insert_bck.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 25px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style:oblique;
+    font-weight: bold;
+}
+
+body button{
+    height: 40px;
+    color: black;
+    font-size: 15px;
+}

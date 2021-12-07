@@ -1,0 +1,47 @@
+    <html>  
+    <head>  
+        <title>ADMIN LOGIN</title>  
+      
+        <link rel = "stylesheet" type = "text/css" href = "index.css">   
+    </head>  
+    <body>  
+        <div class = "frm">  
+            <img src="admin.jpg" alt="admin" class="avatar"><br><br>
+            <h1>ADMIN LOGIN</h1>  <br><br><br>
+            <form name="f1" action = "authentication.php" onsubmit = "return validation()" method = "POST">    
+                    <p> USER NAME: </p>  <br>
+                    <input type = "text" id ="user" placeholder="Enter Username" name='user'/>   <br><br>   
+                    <p> PASSWORD: </p>  <br>
+                    <input type = "password" id ="pass" placeholder="Enter Password" name='pass'/>   <br><br>
+                <h2>
+                    <input type ="submit" id = "btn" value = "Login" />  
+					 
+					  <button type="reset" value="Reset">Reset</button> 
+                </h2>  
+            </form>  
+        </div>  
+         
+        <script>  
+                function validation()  
+                {  
+                    var id=document.f1.user.value;  
+                    var ps=document.f1.pass.value;  
+                    if(id.length=="" && ps.length=="") {  
+                        alert("User Name and Password fields are empty");  
+                        return false;  
+                    }  
+                    else  
+                    {  
+                        if(id.length=="") {  
+                            alert("User Name is empty");  
+                            return false;  
+                        }   
+                        if (ps.length=="") {  
+                        alert("Password field is empty");  
+                        return false;  
+                        }  
+                    }                             
+                }  
+            </script>  
+    </body>     
+    </html>  

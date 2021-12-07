@@ -1,0 +1,14 @@
+body{
+    background-image: url("anthurium_bck.jpg");
+    backdrop-filter: blur(2px);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body button{
+    height: 30px;
+    width: 135x;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;  
+}

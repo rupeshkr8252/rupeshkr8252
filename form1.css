@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+body:before{
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("user_bck.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size:cover;
+    background-size: cover;
+}
+
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 500px;
+    padding: 80px 40px;
+    background: rgba(211, 207, 206, 0.6);
+}
+
+.avatar{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow:hidden;
+    top:cal(-80px/2);
+    left:cal(70% - 60px);
+}
+
+.form h1{
+    margin:0;
+    padding: 0 0 20px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.f0rm p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: black;
+}
+
+.form input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form button{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form input[type=text],
+.form input[type=password]{
+    border: none;
+    outline: none;
+    height: 35px;
+    color: black;
+    font-size: 15px;
+}
+
+.form input[type=submit],
+.form button[type=reset]{
+    height: 30px;
+    color: white;
+    font-size: 15px;
+    background: rgb(207, 58, 58);
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}

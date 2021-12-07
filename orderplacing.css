@@ -1,0 +1,16 @@
+body{
+    background-image: url("orderplacing_bck.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 25px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+body button{
+    height: 35px;
+    color: black;
+    font-size: 15px;
+}
+
